@@ -8,7 +8,7 @@
     $_POST = json_decode($POST, true);
 
     //* 01 - Registra início da execução
-    $TIME_START = microtime(true);
+    $TIME_START = microtime(true);l 
 
     //* 02 - Define timezone
     date_default_timezone_set('America/Sao_Paulo');
