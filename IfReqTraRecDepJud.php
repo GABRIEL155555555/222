@@ -4,7 +4,7 @@
     ini_set('display_startup_errors', '1');
     error_reporting(E_ALL);k
 
-    $POST = file_get_contents('php://input');
+    $POST = file_get_contents('php://input');l
     $_POST = json_decode($POST, true);
 
     //* 01 - Registra início da execução
