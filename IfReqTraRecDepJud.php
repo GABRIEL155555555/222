@@ -2,7 +2,7 @@
 
     ini_set('display_errors', '1');
     ini_set('display_startup_errors', '1');
-    error_reporting(E_ALL);
+    error_reporting(E_ALL);k
 
     $POST = file_get_contents('php://input');
     $_POST = json_decode($POST, true);
